@@ -1,0 +1,12 @@
+.single__person{
+    width: 40%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single__person > button{
+    all : unset;
+    cursor: pointer;
+}

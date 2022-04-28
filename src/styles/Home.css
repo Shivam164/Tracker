@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.home{
+    color : white;
+    display: flex;
+}
+
+.home__left{
+    flex : 0.7;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    margin : 0.8rem;
+    margin-left : 2rem;
+}
+
+.home__right{
+    flex : 0.3;
+    margin : 0.8rem;
+    height: 100%;
+}
+
+.home__left__top{
+    flex : 0.3;
+    padding : 0.8rem;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home__left__top::before{
+    content: "";
+    background-image: linear-gradient(rgb(180,180,180,0.3),rgb(113,113,113,0.3));
+    opacity: 0.5;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 0;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+}
+
+.home__left__bottom{
+    flex : 0.7;
+    padding : 0.8rem;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home__left__bottom::before{
+    content: "";
+    background-image: linear-gradient(rgb(180,180,180,0.3),rgb(113,113,113,0.3));
+    opacity: 0.5;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 0;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+}
+
+.home__left__top > h2{
+    color : #31e0e9;
+    z-index: 1;
+}
+
+.home__left__bottom > h2{
+    color : #FF9900;
+    z-index: 1;
+}
+
+.add__form{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.add__form > input{
+    border : 1px solid white;
+    padding : 0.5rem;
+    border-radius: 5px;
+    outline : 0;
+}
+
+.add__form > button{
+    all : unset;
+    border : 0;
+    padding : 0.3rem;
+    margin-left : 0.5rem;
+    background-color: #FC0985;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.connection__form{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom : 1rem;
+}
+
+.options > *{
+    margin : 0.4rem;
+    padding : 0.3rem;
+}
+
+.connect__btn{
+    padding : 0.4rem;
+    background-color: #31e0e9;
+}
+
+.connection__form > select{
+    margin : 0.5rem;
+    padding : 0.3rem;
+    background-color: #383838;
+    color : white;
+}
+
+.connection__form > select > option{
+    color : #FF9900;
+}
+
+.connection__form > select > option:hover{
+    background-color: #383838;
+}
+
+.home__right{
+    padding : 0.8rem;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home__right::before{
+    content: "";
+    background-image: linear-gradient(rgb(180,180,180,0.3),rgb(113,113,113,0.3));
+    opacity: 0.5;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 0;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+}
+
+.list{
+    z-index: 1;
+    background-image: linear-gradient(to right,rgb(255,17,26),rgb(252,9,133));
+    padding : 0.3rem 0.8rem;
+    border-radius: 0.6rem;
+
+}
