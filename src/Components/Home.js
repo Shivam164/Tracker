@@ -70,7 +70,13 @@ const Home = props => {
                 v.push(profile[i]);
             }
         }
+        var con = [];
+        for(var i = 0;i<connection.length;i++){
+            if(connection[i][0]==name || connection[i][1] == name)continue;
+            con.push(connection[i]);
+        }
         setProfile(v);
+        setConnection(con);
     }
 
     const handleConnect = (e) => {

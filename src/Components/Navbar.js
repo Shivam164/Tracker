@@ -9,7 +9,6 @@ const Navbar = props => {
             <div className='navbar__directions'>
                 <NavLink className={(navData) => (navData.isActive ? 'active' : '')} to = '/'>Home</NavLink>
                 <NavLink className={(navData) => (navData.isActive ? 'active' : '')} to = '/connection'>Find Connection</NavLink>
-                <NavLink className={(navData) => (navData.isActive ? 'active' : '')} to = '/how-to-use'>How to use?</NavLink>
             </div>
         </div>
     );
